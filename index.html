@@ -1,65 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>website</title>
-    <!--footer icons pack--> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-   <!--Bootstrap Scripts-->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-
-    <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-      
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Centgrade</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
-  <header>
-      <div class="main">
-          <div class="logo">
-              <img src="/logo/CENTGRADE.jfif" alt="">
-          </div>
-          <ul>
-              <li class="active"><a href="#" >Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contact</a></li>
+   <!--navbar section-->
+     <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" class="navbarlogo__effect" id="navbar__logo" >Centgrade Labs</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                
+        </div>
+          <ul class="navbar__menu">
+              <li class="navbar__item">
+                  <a href="#home" class="navbar__links" id="home-page">Home</a>
+              </li>
+                <li class="navbar__item">
+                  <a href="#team" class="navbar__links" id="team-page">Team</a>
+              </li>
+               <li class="navbar__item">
+                  <a href="#works" class="navbar__links" id="works-page">Work</a>
+              </li>
+               <li class="navbar__item">
+                  <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+              </li>
           </ul>
-
-      </div>
-      <div class="title">
-          <h1>Centgrade Labs</h1>
-
-      </div>
-   
-  </header>
-<hr>
-<!---FEATURES-->
-<section class="features">
-     <div class="mid">
-          
+        </div>
+    </nav>
     
 
+<!--welcome section-->
+<div class="welcome" id="home">
+    <div class="welcome__container">
+        <h1 class="welcome__heading">We are Here to <span>Help</span> you Guys </h1>
+        <p class="welcome__note">Unlimited Ways</p>
+        <button class="primary__btn"><a href="#" ><h3 class="logo__text">Explore</h3></a></button>
     </div>
-    <div class="bottom">
+</div>
 
+<!--feature section-->
+ <div class="Team__description" id="works"><h1>works</h1></div>
+ <section class="container mobile-container">
+    
+        <div class="listing">
+            <div>
+                <div class="icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="description">
+                    <h3>Title</h3>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual on meaningful content. Lorem ipsum may </p>
+                </div>
+            </div>
+            <div>
+                <div class="icon">
+                    <i class="far fa-clock"></i>
+                </div>
+                <div class="description">
+                    <h3>Title</h3>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual on meaningful content. Lorem ipsum may </p>
+                </div>
+            </div>
+            <div>
+                <div class="icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="description">
+                    <h3>Title</h3>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual on meaningful content. Lorem ipsum may </p>
+                </div>
+            </div>
+        </div>
+        <div class="phone-box">
+            <div>
+                <h3 class="logo__inside">Centgrade Labs</h3>
+            </div>
+            <img src="images/iphone.png">
+        </div>
+        <div class="listing">
+            <div>
+                <div class="icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="description">
+                    <h3>Title</h3>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual on meaningful content. Lorem ipsum may </p>
+                </div>
+            </div>
+            <div>
+                <div class="icon">
+                    <i class="far fa-clock"></i>
+                </div>
+                <div class="description">
+                    <h3>Title</h3>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual on meaningful content. Lorem ipsum may </p>
+                </div>
+            </div>
+            <div>
+                <div class="icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="description">
+                    <h3>Title</h3>
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual on meaningful content. Lorem ipsum may </p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+<!--Team section-->
+<section class="Team__section" id="team">
+
+<div class="Team__description"><h1>This Is Our Team</h1></div>
+
+<div class="Team__container">
+<div class="one__image"></div>
+<div class="two__image"></div>
+<div class="three__image"></div>
+<div class="four__image"></div>
+
+<div class="Team__description  Team__names"></div>
+
+    <div class="one">
+    
+        <h2>jeff</h2>
+        <br>
+        <p class="jeff">Hi im jeff</p>
     </div>
+    <div class="two">
+    <h2>matt</h2>
+    <br>
+    <p class="matt">Hi im matt</p>
+</div>
+<div class="three"><h2>prior</h2><br>
+    <p class="prior">Hi im prior</p></div>
+<div class="four"><h2>chris</h2>
+<br>
+    <p class="chris">Hi im chris</p></div></div>
+</div>
 </section>
-<footer class="footer-class" id="white-section">
+
+
+<!--Footer section-->
+<div id="contact"><h3>CONTACT US</h3></div>
+ <footer class="white-section" id="footer">
     <div class="container-fluid">
-       <i class="fab fa-facebook"></i>
-        <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
       <i class="social-icon fab fa-instagram"></i>
       <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright 2020 Centgrade Labs</p>
-       
+      <p class="copyright">© Copyright 2021 Centgrade Labs PvtT Ltd</p>
     </div>
-</footer>
+  </footer>
+
+
+
 </body>
 </html>
