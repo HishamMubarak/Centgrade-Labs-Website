@@ -13,13 +13,8 @@
 }
 
 .navbar {
-    background: #000d27;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2e6c82, #419ba5);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #010516, #25227d);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #ffff;
+      
     display: flex;
     height: 80px;
     justify-content: center;
@@ -44,6 +39,7 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    box-shadow: black;
 }
 
 
@@ -60,7 +56,8 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-
+    font-weight: 600;
+    
 }
 
 .navbarlogo__effect:hover{
@@ -81,7 +78,7 @@ transition: all 0.3s ease;
 }
 
 .navbar__links {
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     width: 125px;
@@ -124,12 +121,13 @@ transition: all 0.3s ease;
     }
 
     .navbar__menu.active {
-        background: #780206;
+        background: #076585;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #061161, #780206);
+        background: -webkit-linear-gradient(to left, #fff, #076585);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #061161, #780206);
+        background: linear-gradient(to left, #fff, #076585);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
         top: 100%;
         opacity: 1;
@@ -155,7 +153,7 @@ transition: all 0.3s ease;
         height: 3px;
         margin: 5px auto;
         transition: all 0.5s ease-in-out;
-        background: #fff;
+        background: rgb(52, 47, 47);
     }
 
     .navbar__item {
@@ -209,7 +207,14 @@ transition: all 0.3s ease;
 
 
 .welcome {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/citylights.jpg');
+   background: #076585;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #fff, #076585);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #fff, #076585);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     background-size: cover;
     height: auto;
     width: 100%;
@@ -233,38 +238,32 @@ transition: all 0.3s ease;
 
 
 .welcome__heading {
-    font-size: 55px;
+    font-size: 45px;
     margin-bottom: 24px;
-    color: #fff;
+    
 }
 
 .welcome__heading span {
-    background: #bdc3c7;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5e7d9b, #bdc3c7);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #004e92, #000428);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 
+ font-size: 50px;
 }
 
 .welcome__note {
-    background: #2980B9;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 25px;
-}
-
-.highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
 }
 
 
@@ -280,29 +279,37 @@ transition: all 0.3s ease;
 
 
   
-.primary__btn {
-    background: #1D2B64;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F8CDDA, #1D2B64);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 
 .primary__btn {
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
+   
+       font-family: 'Montserrat';
+       display: inline-block;
+       height: 45px;
+       padding: 0 30px;
+       text-align: center;
+       font-size: 12px;
+       font-weight: 600;
+       line-height: 42px;
+       letter-spacing: 2px;
+       margin: 20px 0;
+       text-transform: uppercase;
+       text-decoration: none !important;
+       white-space: nowrap;
+       cursor: pointer;
+       background-color: #387ed1;
+       background: #4285f4;
+       color: #FFFFFF;
+       border: 1px solid transparent !important;
+       border-radius: 50px;
+       box-sizing: border-box;
+       -webkit-transition: 0.2s;
+       -moz-transition: 0.2s;
+       transition: 0.2s;
+   
 }
-
+.primary__btn a{text-decoration: none;
+                     color: blanchedalmond;   }
 .primary__btn:hover {
     background-position: right center;
     /* change the direction of the change here */
