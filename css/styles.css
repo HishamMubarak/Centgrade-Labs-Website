@@ -273,6 +273,8 @@ transition: all 0.3s ease;
     .welcome__heading {
         font-size: 60px;
         text-align: center;
+        align-items: center;
+        text-shadow: grey;
     }
 
     .welcome__note {
@@ -674,7 +676,7 @@ margin: 0 10px;
 
     @media only screen and (max-width: 800px) {
        .containerT .card {
-           width: 300px;
+           width: 500px;
        }
     
      
