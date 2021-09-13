@@ -131,12 +131,7 @@ transition: all 0.3s ease;
     }
 
     .navbar__menu.active {
-        background: #076585;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #fff, #076585);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #fff, #076585);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-color: rgba(231, 227, 227, 0.755);
 
 
         top: 100%;
@@ -277,11 +272,14 @@ transition: all 0.3s ease;
 @media screen and (max-width: 768px) {
     .welcome__heading {
         font-size: 60px;
+        text-align: center;
     }
 
     .welcome__note {
         font-size: 40px;
     }
+
+
 }
 
 
@@ -670,4 +668,15 @@ margin: 0 10px;
         flex-wrap: wrap;
         flex-flow: row nowrap;
         padding: 30px 30px;        
+    }
+
+
+
+    @media only screen and (max-width: 800px) {
+       .containerT .card {
+           width: 300px;
+       }
+    
+     
+
     }
